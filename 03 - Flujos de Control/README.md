@@ -1,21 +1,16 @@
+#
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
-
-## Grabación de la Clase 3
-
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/684295459" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 ## Flujos de Control
 
 ### Condicionales
 
-Los condicionales son bloques de código que se ejecutan únicamente si se cumple una condición. 
+Los condicionales son bloques de código que se ejecutan únicamente si se cumple una condición.
 El resultado de esta condición debe ser booleano (True o False).
 Esto se logra mediante la sentencia **if**.
-Con la sentencia **elif** se puede agregar un número arbitrario de condiciones. 
+Con la sentencia **elif** se puede agregar un número arbitrario de condiciones.
 Por otra parte, se puede ejecutar código si la/s condición/es no se cumple/n con la sentencia **else**.
-
 
 ```python
 >>> valor = 0
@@ -66,15 +61,14 @@ Un ciclo **while** repite un bloque de código mientras que cierta condición se
 9
 ```
 
-<hr width="75%">
-  <p align="center">
-  Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fundamentales de la programación y de Python, pero es necesario detenerse en algunos detalles, que tienen que ver precisamente con el lenguaje que estamos utilizando:
+---
+> Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fundamentales de la programación y de Python, pero es necesario detenerse en algunos detalles, que tienen que ver precisamente con el lenguaje que estamos utilizando:
 
-  * En Python es importante la indentación, notar que el código que se ejecuta dentro de una sentencia if, for o while está indentado.
-  * También es importante notar los ":"
-  * En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer número se incluye y el último no.
-  </p>
-<hr width="75%">
+* En Python es importante la indentación, notar que el código que se ejecuta dentro de una sentencia if, for o while está indentado.
+* También es importante notar los ":"
+* En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer número se incluye y el último no.
+  
+---
 
 ### Sentencia Break
 
@@ -146,16 +140,8 @@ n
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/03%20-%20Flujos%20de%20Control/Prep_Course_Homework_03.md)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/02%20-%20Variables%20y%20Tipos%20de%20Datos/Prep_Course_Homework_02.md)
 
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
+![x](https://static.thenounproject.com/png/204643-200.png)
+
+[Hacé click acá para dejar tu feedback sobre esta clase.]("https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos")
