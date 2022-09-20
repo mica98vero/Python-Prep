@@ -32,11 +32,12 @@ Sin embargo, cuando ese dato no lo alojamos en una variable y lo utilizamos dire
 Es importante notar, que podemos encontrarnos con datos de tipos distintos, es decir numéricos, alfanuméricos o booleanos.
 
 En Python tenemos los siguientes:
- * Enteros: el conjunto de números enteros
- * Floats: el conjunto de números reales o de punto flotante
- * Cadenas o Strings: es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
- * Booleanos: representan Verdadero ó Falso
- * Complejos: el conjunto de números complejos
+
+* Enteros: el conjunto de números enteros
+* Floats: el conjunto de números reales o de punto flotante
+* Cadenas o Strings: es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
+* Booleanos: representan Verdadero ó Falso
+* Complejos: el conjunto de números complejos
 
 Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato y esto establece qué operaciones se pueden realizar sobre la misma.
 
@@ -52,44 +53,43 @@ Con diferentes tipos de datos podemos hacer diferentes tipos de operaciones. Y h
 
 **Operaciones aritméticas:**
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| Suma      | + | 3 + 5.5 = 8.5 |
-| Resta   | -  | 4 - 1 = 3  |
-| Multiplicación | *  | 4 * 2 = 8  |
-| Potenciación | 4<sup>2</sup>  | 4**2 = 16  |
-| División (Cociente) | /  | 4 / 2 = 2  |
-| División (parte entera) | //  | 14 // 3 = 4  |
-| División (resto) | %  | 14 % 3 =  2 |
+| Operación               | Operador      | Ejemplo       |
+|:----------------------- |:-------------:| -------------:|
+| Suma                    | +             | 3 + 5.5 = 8.5 |
+| Resta                   | -             | 4 - 1 = 3     |
+| Multiplicación          | *             | 4 * 2 = 8     |
+| Potenciación            | 4<sup>2</sup> | 4**2 = 16     |
+| División (Cociente)     | /             | 4 / 2 = 2     |
+| División (parte entera) | //            | 14 // 3 = 4   |
+| División (resto)        | %             | 14 % 3 =  2   |
 
 **Operadores relacionales:**
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| == | Igual | 10 == 3 = False |
-| != | Distinto | 10 != 3 = True |
-| >	| Mayor	| 10 > 3 = True |
-| < | Menor	| 10 < 3 = False |
-| >= | Mayor o igual | 10 >= 3 = True |
-| <= | Menor o igual | 10 <= 3 = False |
+| Operación | Operador      | Ejemplo         |
+|:--------- |:-------------:| ---------------:|
+| ==        | Igual         | 10 == 3 = False |
+| !=        | Distinto      | 10 != 3 = True  |
+| >         | Mayor         | 10 > 3 = True   |
+| <         | Menor         | 10 < 3 = False  |
+| >=        | Mayor o igual | 10 >= 3 = True  |
+| <=        | Menor o igual | 10 <= 3 = False |
 
 **Operaciones de asignación:**
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| =   | x=7  | x=7  |
-| +=  | x+=2  | x=x+2 = 9  |
-| -=  | x-=2  | x=x-2 = 5  |
-| *=  | x*=2  | x=x*2 = 14  |
-| /=  | x/=2  | x=x/2 = 3.5  |
-| %=  | x%=2  | x=x%2 = 1  |
-| //=  | x//=2  | x=x//2 = 3  |
-| **=  | x**=2  | x=x**2 = 49  |
-| &=  | x&=2  | x=x&2 = 2  |
-| ^=  | x^=2  | x=x^2 = 5  |
-| >>=  | x>>=2  | x=x>>2 = 1  |
-| <<= | x<<=2 | x=x<<=2 = 28  |
-
+| Operación | Operador | Ejemplo      |
+|:--------- |:--------:| ------------:|
+| =         | x=7      | x=7          |
+| +=        | x+=2     | x=x+2 = 9    |
+| -=        | x-=2     | x=x-2 = 5    |
+| *=        | x*=2     | x=x*2 = 14   |
+| /=        | x/=2     | x=x/2 = 3.5  |
+| %=        | x%=2     | x=x%2 = 1    |
+| //=       | x//=2    | x=x//2 = 3   |
+| **=       | x**=2    | x=x**2 = 49  |
+| &=        | x&=2     | x=x&2 = 2    |
+| ^=        | x^=2     | x=x^2 = 5    |
+| >>=       | x>>=2    | x=x>>2 = 1   |
+| <<=       | x<<=2    | x=x<<=2 = 28 |
 
 Operación: |=   <br>
 Operador: x|=2  <br>
@@ -97,10 +97,10 @@ Ejemplo: x=x|2 = 7  <br>
 
 Cuando tratamos con texto, podemos hacer otras operaciones:
 
-| Operación | Operador | Ejemplo |
-| :---      |  :----:  |    ---: |
-| Concatenar | + | 'hola ' + 'mundo !' = 'hola mundo!' |
-| Multiplicar | * | 'ja ' * 3 = 'ja ja ja' |
+| Operación   | Operador | Ejemplo                             |
+|:----------- |:--------:| -----------------------------------:|
+| Concatenar  | +        | 'hola ' + 'mundo !' = 'hola mundo!' |
+| Multiplicar | *        | 'ja ' * 3 = 'ja ja ja'              |
 
 Algunos ejemplos en Python:
 
