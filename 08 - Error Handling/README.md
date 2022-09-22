@@ -1,10 +1,6 @@
+#
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
-
-## Grabación de la Clase 8
-
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/686791076" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 ## Manejo de Errores
 
@@ -12,6 +8,7 @@
 
 Las pruebas de caja negra se basan en la especificación de la función o el programa, aquí debemos probar sus inputs y validar los outputs. Se llama caja negra por que no necesitamos saber necesariamente los procesos internos del programa, solo contrastar sus resultados.
 Hay dos tipos de pruebas muy importantes:
+
 * Pruebas Unitarias: se realizan pruebas a cada uno de los módulos para determinar su correcto funcionamiento.
 * Pruebas de Integración: se valida que todos los módulos funcionan entre sí.
 
@@ -51,7 +48,7 @@ Ran 2 tests in 0.004s
 
 OK
 <unittest.main.TestProgram at 0x2226bd08400>
-``` 
+```
 
 ### Pruebas de caja de cristal
 
@@ -98,6 +95,7 @@ OK
 
 Los bugs son un problema que les sucede a todos, sin embargo si realizamos test a nuestro programa probablemente tendremos menos bugs, pero esto no es suficiente.
 Existen unas reglas generales que nos ayudaran:
+
 * Aprende a utilizar el print statement.
 * Estudia los datos disponibles.
 * Utiliza los datos para crear hipótesis y experimentos. Método científico.
@@ -106,6 +104,7 @@ Existen unas reglas generales que nos ayudaran:
 * Debuguear es un proceso de búsqueda de los bugs, por lo que al diseñar nuestros experimentos debemos acotar el espacio de búsqueda en cada prueba. Una forma ágil de debugear es utilizando una búsqueda binaria con print statements, esto significa que ejecutamos la mitad del código, si no falla entonces sabemos que el problema está en la otra mitad, y en cada área que vamos acortando lo dividimos por mitades, de esta forma hallaremos rápidamente nuestro bug.
 
 Existe un listado de errores comunes de los cuales también nos podemos apoyar:
+
 * Encuentra a los sospechosos comunes (llamado a una función mal escrita, parámetros en orden incorrecto, etc.)
 * En lugar de preguntarte por qué un programa no funciona, pregúntate por qué está funcionando de esta manera.
 * Es posible que el bug no se encuentre donde crees que está.
@@ -181,7 +180,7 @@ function buscaPais(paises, pais) {
 
   return paises[pais];
 }
-``` 
+```
 
 Como se puede ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
 
@@ -191,39 +190,39 @@ Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el es
 #All possible errors
 
 except TypeError:
-    print("is thrown when an operation or function is applied to an object of an inappropriate type.")
+  print("is thrown when an operation or function is applied to an object of an inappropriate type.")
 except IndexError:
-   	print("is thrown when trying to access an item at an invalid index.")
+  print("is thrown when trying to access an item at an invalid index.")
 except KeyError:
-    print("is thrown when a key is not found.")
+  print("is thrown when a key is not found.")
 except ImportError:
-  	print("Raised when the imported module is not found.")
+  print("Raised when the imported module is not found.")
 except StopIteration:
-  	print("is thrown when the next() function goes beyond the iterator items.")
+  print("is thrown when the next() function goes beyond the iterator items.")
 except ValueError:
-  	print("is thrown when a function's argument is of an inappropriate type.")
+  print("is thrown when a function's argument is of an inappropriate type.")
 except NameError:
-  	print("is thrown when an object could not be found.")	
+  print("is thrown when an object could not be found.")
 except ZeroDivisionError:
-  	print("is thrown when the second operator in the division is zero.")
+  print("is thrown when the second operator in the division is zero.")
 except KeyboardInterrupt:
-  	print("is thrown when the user hits the interrupt key (normally Control-C) during the execution of the program.")
+  print("is thrown when the user hits the interrupt key (normally Control-C) during the execution of the program.")
 except MemoryError:
-  	print("Raised when an operation runs out of memory.")
+  print("Raised when an operation runs out of memory.")
 except FloatingPointError:
-  	print("Raised when a floating point operation fails.")
+  print("Raised when a floating point operation fails.")
 except OverflowError:
-  	print("Raised when the result of an arithmetic operation is too large to be represented.")
+  print("Raised when the result of an arithmetic operation is too large to be represented.")
 except ReferenceError:
-  	print("Raised when a weak reference proxy is used to access a garbage collected referent.")
+  print("Raised when a weak reference proxy is used to access a garbage collected referent.")
 except TabError:
-  	print("Raised when the indentation consists of inconsistent tabs and spaces.")
+  print("Raised when the indentation consists of inconsistent tabs and spaces.")
 except SystemError:
-  	print("Raised when the interpreter detects internal error.")
+  print("Raised when the interpreter detects internal error.")
 except RuntimeError:
-  	print("Raised when an error does not fall under any other category.")
+  print("Raised when an error does not fall under any other category.")
 except:
- 	print("Error detected can't be handled nor clasified.")
+  print("Error detected can't be handled nor clasified.")
 ```
 
 ## Afirmaciones
@@ -246,23 +245,15 @@ Para realizar una afirmación en nuestro programa lo hacemos con la expresión a
 
 ## Características de Python
 
-- Es un lenguaje interpretado, no compilado.
-- Usa tipado dinámico, lo que significa que una variable puede tomar valores de distinto tipo.
-- Es fuertemente tipado, lo que significa que el tipo no cambia de manera repentina. Para que se produzca un cambio de tipo tiene que hacer una conversión explícita.
-- Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y viceversa.
+* Es un lenguaje interpretado, no compilado.
+* Usa tipado dinámico, lo que significa que una variable puede tomar valores de distinto tipo.
+* Es fuertemente tipado, lo que significa que el tipo no cambia de manera repentina. Para que se produzca un cambio de tipo tiene que hacer una conversión explícita.
+* Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y viceversa.
 
 ## Homework
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/08%20-%20Error%20Handling/Prep_Course_Homework_08.md)
 
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
+![x](https://static.thenounproject.com/png/204643-200.png)
+
+[Hacé click acá para dejar tu feedback sobre esta clase.]("https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos")

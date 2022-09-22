@@ -1,10 +1,6 @@
+#
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
-
-## Grabación de la Clase 5
-
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/685504130" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 ## Iteradores e Iterables
 
@@ -144,7 +140,6 @@ StopIteration                             Traceback (most recent call last)
 Una nota muy importante es que cuando el iterador es obtenido con iter() como hemos visto, apunta por defecto fuera de la lista. Es decir, si queremos acceder al primer elemento de la lista, deberemos llamar una vez a next().
 Por otro lado, a diferencia de un marcapáginas de un libro, el iterador sólo puede ir hacia delante. No es posible retroceder.
 
-
 ### Sentencia zip
 
 Dadas dos listas, digamos lista1 y lista2, al pasarlas a **zip** como entrada, el elemento 1 de lista1 se asocia con el elemento 1 de lista2, el elemento 2 de lista1 se asocia con el elemento 2 de lista2, el elemento 3 de lista1 se asocia con el elemento 3 de lista2, y así sucesivamente. Es decir que el resultado será una tupla donde cada elemento tendrá todos y cada uno de los elementos i-ésimos de las listas pasadas como entrada.
@@ -161,7 +156,7 @@ zip
 
 ### Añadiendo condicionales
 
-Hemos visto cómo modificar todos los elementos de un iterable (como una lista) de diferentes maneras, pero ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Debemos añadir un condicional if. 
+Hemos visto cómo modificar todos los elementos de un iterable (como una lista) de diferentes maneras, pero ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Debemos añadir un condicional if.
 La expresión genérica sería la siguiente.
 
 lista = [expresión for elemento in iterable if condición]
@@ -183,14 +178,6 @@ Lo que hace el código anterior es iterar cada letra de la frase, y si es una r,
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/05%20-%20Iteradores%20e%20Iterables/Prep_Course_Homework_05.md)
 
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
+![x](https://static.thenounproject.com/png/204643-200.png)
+
+[Hacé click acá para dejar tu feedback sobre esta clase.]("https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos")
